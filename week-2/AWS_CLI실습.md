@@ -10,7 +10,7 @@
 
 1.  IAM -> 사용자 -> 사용자클릭 -> 보안자격증명(Credential Security) -> 액세스키
 
-![](image.png)
+![](./imgs/image.png)
 
 - 해당하는 사례 체크 <br>
 

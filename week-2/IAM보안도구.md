@@ -14,7 +14,7 @@
 
 1.  보고서 엑세스 -> 자격 증명 보고서 클릭
 
-![alt text](image-6.png)
+![alt text](./imgs/image-6.png)
 
 2. 보안인증보고서 (csv 파일)을 다운받음
 
@@ -25,9 +25,9 @@
 1. 액세스관리 -> 사용자
 
 2. 원하는 사용자 클릭후 , 엑세스 관리자를 볼 수 있음 .
-   ![alt text](image-7.png)
+   ![alt text](./imgs/image-7.png)
 
 3. 해당 유저에게 부여된 권한 + 마지막 서비스 접속시간 확인 가능
-   ![alt text](image-8.png)
+   ![alt text](./imgs/image-8.png)
 
    - 오랫동안 액세스되지 않은 서비스가 있다면 제거하는게 바람직함 (least-privilege)
