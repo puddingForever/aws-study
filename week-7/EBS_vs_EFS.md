@@ -1,0 +1,15 @@
+- EBS volumes
+  - one instance
+  - are locked at the AZ
+- To migrate an EBS volume acrross AZ
+  - take a snapshot
+  - restore the snapshot to anothere AZ
+  - EBS backsups use IO and you shouldnt run them while your application is handling a lot of traffic
+- Root EBS Volumes of instances get terminated by default if the EC2 instance gets terminated (you can disable that)
+
+- EFS (Elastic File System)
+  - Mounting 100s of instances across AZ
+  - EFS share websites files (WordPress)
+  - Only for Linux Instance (POSIX)
+  - higher price than EBS
+  - Can leverage storage tiers for cost savings
